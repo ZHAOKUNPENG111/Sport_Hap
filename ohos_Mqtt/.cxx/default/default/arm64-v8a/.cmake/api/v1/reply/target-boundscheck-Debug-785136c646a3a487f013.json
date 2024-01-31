@@ -1,0 +1,115 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "boundscheck/libboundscheck.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"boundscheck/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -D__MUSL__ -O0 -g -fno-limit-debug-info  -fPIC  "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/boundscheck/third_party_bounds_checking_function/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/boundscheck/third_party_bounds_checking_function/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			],
+			"sysroot" : 
+			{
+				"path" : "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot"
+			}
+		}
+	],
+	"id" : "boundscheck::@9eddb34ecec226d41306",
+	"name" : "boundscheck",
+	"nameOnDisk" : "libboundscheck.a",
+	"paths" : 
+	{
+		"build" : "boundscheck",
+		"source" : "boundscheck"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boundscheck/third_party_bounds_checking_function/src/memcpy_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boundscheck/third_party_bounds_checking_function/src/memset_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "boundscheck/third_party_bounds_checking_function/src/securecutil.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

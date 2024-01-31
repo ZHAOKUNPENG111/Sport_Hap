@@ -1,0 +1,54 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/clang.exe 
+Build flags: -fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-fno-addrsig;-Wa,--noexecstack;-Wformat;-Werror=format-security;;-D__MUSL__
+Id flags:  
+
+The output was:
+1
+clang: error: unable to execute command: program not executable
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/clang++.exe 
+Build flags: -fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-fno-addrsig;-Wa,--noexecstack;-Wformat;-Werror=format-security;;;-D__MUSL__
+Id flags:  
+
+The output was:
+1
+clang++: error: unable to execute command: program not executable
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+OHOS (dev) clang version 15.0.4 (llvm-project d1aa604d90b55a96aa22af9992d170fccbd41938)
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/bin/clang.exe 
+Build flags: -fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-fno-addrsig;-Wa,--noexecstack;-Wformat;-Werror=format-security;;-D__MUSL__
+Id flags:  
+
+The output was:
+1
+clang: error: unable to execute command: program not executable
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/bin/clang++.exe 
+Build flags: -fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-fno-addrsig;-Wa,--noexecstack;-Wformat;-Werror=format-security;;;-D__MUSL__
+Id flags:  
+
+The output was:
+1
+clang++: error: unable to execute command: program not executable
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+OHOS (dev) clang version 12.0.1 (llvm-project 1971c85d809b8dd102ede1ec71208518a9b0f68e)
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/bin

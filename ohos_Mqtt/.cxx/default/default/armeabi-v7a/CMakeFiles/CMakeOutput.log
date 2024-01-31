@@ -1,0 +1,603 @@
+The target system is: OHOS - 1 - arm
+The host system is: Windows - 10.0.22621 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/clang.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is Clang, found in "D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/clang++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is Clang, found in "D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\App_Data\Local\OpenHarmony\Sdk\10\native\build-tools\cmake\bin\ninja.exe cmTC_3778e && [1/2] Building C object CMakeFiles/cmTC_3778e.dir/testCCompiler.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_3778e
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\App_Data\Local\OpenHarmony\Sdk\10\native\build-tools\cmake\bin\ninja.exe cmTC_997e6 && [1/2] Building C object CMakeFiles/cmTC_997e6.dir/CMakeCCompilerABI.c.o
+OHOS (dev) clang version 15.0.4 (llvm-project d1aa604d90b55a96aa22af9992d170fccbd41938)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin
+Found CUDA installation: E:/App_Data/CUDA_Dev, version 
+clang: warning: argument unused during compilation: '--gcc-toolchain=E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm' [-Wunused-command-line-argument]
+ (in-process)
+ "E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/clang.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4 -D __MUSL__ -isysroot E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot -internal-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/include -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir=D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_997e6.dir/CMakeCCompilerABI.c.o -x c E:/App_Data/Local/OpenHarmony/Sdk/10/native/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 15.0.4 based upon LLVM 15.0.4 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include
+ E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos
+ E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_997e6
+OHOS (dev) clang version 15.0.4 (llvm-project d1aa604d90b55a96aa22af9992d170fccbd41938)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin
+Found CUDA installation: E:/App_Data/CUDA_Dev, version 
+ "E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/ld.lld" --sysroot=E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot -pie -EL -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_997e6 E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/Scrt1.o E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/crti.o E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtbegin.o -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/ -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../lib/arm-linux-ohos/ -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/ --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_997e6.dir/CMakeCCompilerABI.c.o E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtend.o E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/crtn.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include]
+    add: [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos]
+    add: [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include]
+  end of search list found
+  collapse include dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include] ==> [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include]
+  collapse include dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos] ==> [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos]
+  collapse include dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include] ==> [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include]
+  implicit include dirs: [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include;E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos;E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):E:\App_Data\Local\OpenHarmony\Sdk\10\native\build-tools\cmake\bin\ninja.exe cmTC_997e6 && [1/2] Building C object CMakeFiles/cmTC_997e6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [OHOS (dev) clang version 15.0.4 (llvm-project d1aa604d90b55a96aa22af9992d170fccbd41938)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin]
+  ignore line: [Found CUDA installation: E:/App_Data/CUDA_Dev  version ]
+  ignore line: [clang: warning: argument unused during compilation: '--gcc-toolchain=E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm' [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/clang.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4 -D __MUSL__ -isysroot E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot -internal-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/include -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir=D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_997e6.dir/CMakeCCompilerABI.c.o -x c E:/App_Data/Local/OpenHarmony/Sdk/10/native/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 15.0.4 based upon LLVM 15.0.4 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include]
+  ignore line: [ E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos]
+  ignore line: [ E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_997e6]
+  ignore line: [OHOS (dev) clang version 15.0.4 (llvm-project d1aa604d90b55a96aa22af9992d170fccbd41938)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin]
+  ignore line: [Found CUDA installation: E:/App_Data/CUDA_Dev  version ]
+  link line: [ "E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/ld.lld" --sysroot=E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot -pie -EL -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_997e6 E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/Scrt1.o E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/crti.o E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtbegin.o -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/ -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../lib/arm-linux-ohos/ -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/ --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_997e6.dir/CMakeCCompilerABI.c.o E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtend.o E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/crtn.o]
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/ld.lld] ==> ignore
+    arg [--sysroot=E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_997e6] ==> ignore
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/Scrt1.o] ==> ignore
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/crti.o] ==> ignore
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtbegin.o] ==> ignore
+    arg [-LE:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos] ==> dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos]
+    arg [-LE:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/] ==> dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/]
+    arg [-LE:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../lib/arm-linux-ohos/] ==> dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../lib/arm-linux-ohos/]
+    arg [-LE:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/] ==> dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/]
+    arg [--build-id=sha1] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_997e6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a] ==> lib [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-lc] ==> lib [c]
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a] ==> lib [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtend.o] ==> ignore
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/crtn.o] ==> ignore
+  remove lib [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a]
+  remove lib [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a]
+  collapse library dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos] ==> [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos]
+  collapse library dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/] ==> [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib]
+  collapse library dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../lib/arm-linux-ohos/] ==> [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/arm-linux-ohos]
+  collapse library dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/] ==> [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos]
+  implicit libs: [unwind;-l:libunwind.a;c;-l:libunwind.a]
+  implicit dirs: [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos;E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib;E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/arm-linux-ohos;E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\App_Data\Local\OpenHarmony\Sdk\10\native\build-tools\cmake\bin\ninja.exe cmTC_d0cf7 && [1/2] Building CXX object CMakeFiles/cmTC_d0cf7.dir/testCXXCompiler.cxx.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm' [-Wunused-command-line-argument]
+[2/2] Linking CXX executable cmTC_d0cf7
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\App_Data\Local\OpenHarmony\Sdk\10\native\build-tools\cmake\bin\ninja.exe cmTC_3ee94 && [1/2] Building CXX object CMakeFiles/cmTC_3ee94.dir/CMakeCXXCompilerABI.cpp.o
+OHOS (dev) clang version 15.0.4 (llvm-project d1aa604d90b55a96aa22af9992d170fccbd41938)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin
+Found CUDA installation: E:/App_Data/CUDA_Dev, version 
+clang++: warning: argument unused during compilation: '--gcc-toolchain=E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm' [-Wunused-command-line-argument]
+ (in-process)
+ "E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/clang++.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4 -D __MUSL__ -isysroot E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot -internal-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../include/libcxx-ohos/include/c++/v1 -internal-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/include -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir=D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3ee94.dir/CMakeCXXCompilerABI.cpp.o -x c++ E:/App_Data/Local/OpenHarmony/Sdk/10/native/build-tools/cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 15.0.4 based upon LLVM 15.0.4 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../include/libcxx-ohos/include/c++/v1
+ E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include
+ E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos
+ E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_3ee94
+OHOS (dev) clang version 15.0.4 (llvm-project d1aa604d90b55a96aa22af9992d170fccbd41938)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin
+Found CUDA installation: E:/App_Data/CUDA_Dev, version 
+ "E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/ld.lld" --sysroot=E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot -pie -EL -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_3ee94 E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/Scrt1.o E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/crti.o E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtbegin.o -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/ -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../lib/arm-linux-ohos/ -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/ --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_3ee94.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtend.o E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/crtn.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../include/libcxx-ohos/include/c++/v1]
+    add: [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include]
+    add: [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos]
+    add: [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include]
+  end of search list found
+  collapse include dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../include/libcxx-ohos/include/c++/v1] ==> [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/include/libcxx-ohos/include/c++/v1]
+  collapse include dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include] ==> [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include]
+  collapse include dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos] ==> [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos]
+  collapse include dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include] ==> [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include]
+  implicit include dirs: [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/include/libcxx-ohos/include/c++/v1;E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include;E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos;E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):E:\App_Data\Local\OpenHarmony\Sdk\10\native\build-tools\cmake\bin\ninja.exe cmTC_3ee94 && [1/2] Building CXX object CMakeFiles/cmTC_3ee94.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [OHOS (dev) clang version 15.0.4 (llvm-project d1aa604d90b55a96aa22af9992d170fccbd41938)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin]
+  ignore line: [Found CUDA installation: E:/App_Data/CUDA_Dev  version ]
+  ignore line: [clang++: warning: argument unused during compilation: '--gcc-toolchain=E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm' [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/clang++.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4 -D __MUSL__ -isysroot E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot -internal-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../include/libcxx-ohos/include/c++/v1 -internal-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/include -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir=D:/23101/OpenHarmony_project/ohos_mqtt-master/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3ee94.dir/CMakeCXXCompilerABI.cpp.o -x c++ E:/App_Data/Local/OpenHarmony/Sdk/10/native/build-tools/cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 15.0.4 based upon LLVM 15.0.4 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../include/libcxx-ohos/include/c++/v1]
+  ignore line: [ E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/include]
+  ignore line: [ E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include/arm-linux-ohos]
+  ignore line: [ E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_3ee94]
+  ignore line: [OHOS (dev) clang version 15.0.4 (llvm-project d1aa604d90b55a96aa22af9992d170fccbd41938)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin]
+  ignore line: [Found CUDA installation: E:/App_Data/CUDA_Dev  version ]
+  link line: [ "E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/ld.lld" --sysroot=E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot -pie -EL -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_3ee94 E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/Scrt1.o E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/crti.o E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtbegin.o -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/ -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../lib/arm-linux-ohos/ -LE:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/ --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_3ee94.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtend.o E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/crtn.o]
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/ld.lld] ==> ignore
+    arg [--sysroot=E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3ee94] ==> ignore
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/Scrt1.o] ==> ignore
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/crti.o] ==> ignore
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtbegin.o] ==> ignore
+    arg [-LE:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos] ==> dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos]
+    arg [-LE:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/] ==> dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/]
+    arg [-LE:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../lib/arm-linux-ohos/] ==> dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../lib/arm-linux-ohos/]
+    arg [-LE:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/] ==> dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/]
+    arg [--build-id=sha1] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_3ee94.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lc++abi] ==> lib [c++abi]
+    arg [-lunwind] ==> lib [unwind]
+    arg [-lm] ==> lib [m]
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a] ==> lib [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-lc] ==> lib [c]
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a] ==> lib [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/clang_rt.crtend.o] ==> ignore
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/crtn.o] ==> ignore
+  remove lib [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a]
+  remove lib [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos/libclang_rt.builtins.a]
+  collapse library dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos] ==> [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos]
+  collapse library dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/] ==> [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib]
+  collapse library dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin/../lib/arm-linux-ohos/] ==> [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/arm-linux-ohos]
+  collapse library dir [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos/] ==> [E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos]
+  implicit libs: [unwind;c++;c++abi;unwind;m;-l:libunwind.a;c;-l:libunwind.a]
+  implicit dirs: [E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/clang/15.0.4/lib/arm-linux-ohos;E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib;E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/lib/arm-linux-ohos;E:/App_Data/Local/OpenHarmony/Sdk/10/native/sysroot/usr/lib/arm-linux-ohos]
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+OHOS (dev) clang version 15.0.4 (llvm-project d1aa604d90b55a96aa22af9992d170fccbd41938)
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: E:/App_Data/Local/OpenHarmony/Sdk/10/native/llvm/bin
+The target system is: OHOS - 1 - arm
+The host system is: Windows - 10.0.22621 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/bin/clang.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is Clang, found in "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/bin/clang++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is Clang, found in "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\App_Data\Local\OpenHarmony\Sdk\9\native\build-tools\cmake\bin\ninja.exe cmTC_d5589 && [1/2] Building C object CMakeFiles/cmTC_d5589.dir/testCCompiler.c.o
+clang: warning: argument unused during compilation: '--gcc-toolchain=E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_d5589
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\App_Data\Local\OpenHarmony\Sdk\9\native\build-tools\cmake\bin\ninja.exe cmTC_c12d0 && [1/2] Building C object CMakeFiles/cmTC_c12d0.dir/CMakeCCompilerABI.c.o
+OHOS (dev) clang version 12.0.1 (llvm-project 1971c85d809b8dd102ede1ec71208518a9b0f68e)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: E:\App_Data\Local\OpenHarmony\Sdk\9\native\llvm\bin
+Found CUDA installation: E:\App_Data\CUDA_Dev, version 11.0
+clang: warning: argument unused during compilation: '--gcc-toolchain=E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm' [-Wunused-command-line-argument]
+ (in-process)
+ "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\clang.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1" -D __MUSL__ -isysroot E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot -internal-isystem "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\include" -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/include -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -o CMakeFiles/cmTC_c12d0.dir/CMakeCCompilerABI.c.o -x c E:/App_Data/Local/OpenHarmony/Sdk/9/native/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ E:\App_Data\Local\OpenHarmony\Sdk\9\native\llvm\lib\clang\12.0.1\include
+ E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos
+ E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_c12d0
+OHOS (dev) clang version 12.0.1 (llvm-project 1971c85d809b8dd102ede1ec71208518a9b0f68e)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: E:\App_Data\Local\OpenHarmony\Sdk\9\native\llvm\bin
+Found CUDA installation: E:\App_Data\CUDA_Dev, version 11.0
+ "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\ld.lld" --sysroot=E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_c12d0 "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos" "-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\" "-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_c12d0.dir/CMakeCCompilerABI.c.o "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/clang/12.0.1/include]
+    add: [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos]
+    add: [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include]
+  end of search list found
+  collapse include dir [E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/clang/12.0.1/include] ==> [E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/clang/12.0.1/include]
+  collapse include dir [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos] ==> [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos]
+  collapse include dir [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include] ==> [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include]
+  implicit include dirs: [E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/clang/12.0.1/include;E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos;E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):E:\App_Data\Local\OpenHarmony\Sdk\9\native\build-tools\cmake\bin\ninja.exe cmTC_c12d0 && [1/2] Building C object CMakeFiles/cmTC_c12d0.dir/CMakeCCompilerABI.c.o]
+  ignore line: [OHOS (dev) clang version 12.0.1 (llvm-project 1971c85d809b8dd102ede1ec71208518a9b0f68e)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: E:\App_Data\Local\OpenHarmony\Sdk\9\native\llvm\bin]
+  ignore line: [Found CUDA installation: E:\App_Data\CUDA_Dev  version 11.0]
+  ignore line: [clang: warning: argument unused during compilation: '--gcc-toolchain=E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm' [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\clang.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1" -D __MUSL__ -isysroot E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot -internal-isystem "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\include" -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/include -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -o CMakeFiles/cmTC_c12d0.dir/CMakeCCompilerABI.c.o -x c E:/App_Data/Local/OpenHarmony/Sdk/9/native/build-tools/cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ E:\App_Data\Local\OpenHarmony\Sdk\9\native\llvm\lib\clang\12.0.1\include]
+  ignore line: [ E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos]
+  ignore line: [ E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_c12d0]
+  ignore line: [OHOS (dev) clang version 12.0.1 (llvm-project 1971c85d809b8dd102ede1ec71208518a9b0f68e)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: E:\App_Data\Local\OpenHarmony\Sdk\9\native\llvm\bin]
+  ignore line: [Found CUDA installation: E:\App_Data\CUDA_Dev  version 11.0]
+  link line: [ "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\ld.lld" --sysroot=E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_c12d0 "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos" "-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\" "-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_c12d0.dir/CMakeCCompilerABI.c.o "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"]
+    arg [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\ld.lld] ==> ignore
+    arg [--sysroot=E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c12d0] ==> ignore
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o] ==> ignore
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o] ==> ignore
+    arg [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o] ==> ignore
+    arg [-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos] ==> dir [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos]
+    arg [-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib;-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1] ==> dir [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib;-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1]
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_c12d0.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-lc] ==> lib [c]
+    arg [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o] ==> ignore
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o] ==> ignore
+  remove lib [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  remove lib [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  collapse library dir [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos] ==> [E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/clang/12.0.1/lib/arm-linux-ohos]
+  collapse library dir [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib] ==> [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/lib]
+  collapse library dir [-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\lib\\arm-linux-ohos] ==> [D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/arm-linux-ohos]
+  collapse library dir [-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos] ==> [D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/lib/arm-linux-ohos]
+  collapse library dir [--build-id=sha1] ==> [D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/--build-id=sha1]
+  implicit libs: [unwind;-l:libunwind.a;c;-l:libunwind.a]
+  implicit dirs: [E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/clang/12.0.1/lib/arm-linux-ohos;E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/lib;D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/arm-linux-ohos;D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/lib/arm-linux-ohos;D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/--build-id=sha1]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\App_Data\Local\OpenHarmony\Sdk\9\native\build-tools\cmake\bin\ninja.exe cmTC_7f83e && [1/2] Building CXX object CMakeFiles/cmTC_7f83e.dir/testCXXCompiler.cxx.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm' [-Wunused-command-line-argument]
+[2/2] Linking CXX executable cmTC_7f83e
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:\App_Data\Local\OpenHarmony\Sdk\9\native\build-tools\cmake\bin\ninja.exe cmTC_e8428 && [1/2] Building CXX object CMakeFiles/cmTC_e8428.dir/CMakeCXXCompilerABI.cpp.o
+OHOS (dev) clang version 12.0.1 (llvm-project 1971c85d809b8dd102ede1ec71208518a9b0f68e)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: E:\App_Data\Local\OpenHarmony\Sdk\9\native\llvm\bin
+Found CUDA installation: E:\App_Data\CUDA_Dev, version 11.0
+clang++: warning: argument unused during compilation: '--gcc-toolchain=E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm' [-Wunused-command-line-argument]
+ (in-process)
+ "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\clang++.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1" -D __MUSL__ -isysroot E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot -internal-isystem "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\include\\libcxx-ohos\\include\\c++\\v1" -internal-isystem "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\include" -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/include -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -o CMakeFiles/cmTC_e8428.dir/CMakeCXXCompilerABI.cpp.o -x c++ E:/App_Data/Local/OpenHarmony/Sdk/9/native/build-tools/cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ E:\App_Data\Local\OpenHarmony\Sdk\9\native\llvm\bin\..\include\libcxx-ohos\include\c++\v1
+ E:\App_Data\Local\OpenHarmony\Sdk\9\native\llvm\lib\clang\12.0.1\include
+ E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos
+ E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_e8428
+OHOS (dev) clang version 12.0.1 (llvm-project 1971c85d809b8dd102ede1ec71208518a9b0f68e)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: E:\App_Data\Local\OpenHarmony\Sdk\9\native\llvm\bin
+Found CUDA installation: E:\App_Data\CUDA_Dev, version 11.0
+ "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\ld.lld" --sysroot=E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_e8428 "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++\\" "-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos" "-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\" "-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_e8428.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/bin/../include/libcxx-ohos/include/c++/v1]
+    add: [E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/clang/12.0.1/include]
+    add: [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos]
+    add: [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include]
+  end of search list found
+  collapse include dir [E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/bin/../include/libcxx-ohos/include/c++/v1] ==> [E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/include/libcxx-ohos/include/c++/v1]
+  collapse include dir [E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/clang/12.0.1/include] ==> [E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/clang/12.0.1/include]
+  collapse include dir [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos] ==> [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos]
+  collapse include dir [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include] ==> [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include]
+  implicit include dirs: [E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/include/libcxx-ohos/include/c++/v1;E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/clang/12.0.1/include;E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos;E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/.cxx/default/default/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):E:\App_Data\Local\OpenHarmony\Sdk\9\native\build-tools\cmake\bin\ninja.exe cmTC_e8428 && [1/2] Building CXX object CMakeFiles/cmTC_e8428.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [OHOS (dev) clang version 12.0.1 (llvm-project 1971c85d809b8dd102ede1ec71208518a9b0f68e)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: E:\App_Data\Local\OpenHarmony\Sdk\9\native\llvm\bin]
+  ignore line: [Found CUDA installation: E:\App_Data\CUDA_Dev  version 11.0]
+  ignore line: [clang++: warning: argument unused during compilation: '--gcc-toolchain=E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm' [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\clang++.exe" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1" -D __MUSL__ -isysroot E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot -internal-isystem "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\include\\libcxx-ohos\\include\\c++\\v1" -internal-isystem "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\include" -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/include -internal-externc-isystem E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include -Wformat -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\.cxx\\default\\default\\armeabi-v7a\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -o CMakeFiles/cmTC_e8428.dir/CMakeCXXCompilerABI.cpp.o -x c++ E:/App_Data/Local/OpenHarmony/Sdk/9/native/build-tools/cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ E:\App_Data\Local\OpenHarmony\Sdk\9\native\llvm\bin\..\include\libcxx-ohos\include\c++\v1]
+  ignore line: [ E:\App_Data\Local\OpenHarmony\Sdk\9\native\llvm\lib\clang\12.0.1\include]
+  ignore line: [ E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include/arm-linux-ohos]
+  ignore line: [ E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_e8428]
+  ignore line: [OHOS (dev) clang version 12.0.1 (llvm-project 1971c85d809b8dd102ede1ec71208518a9b0f68e)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: E:\App_Data\Local\OpenHarmony\Sdk\9\native\llvm\bin]
+  ignore line: [Found CUDA installation: E:\App_Data\CUDA_Dev  version 11.0]
+  link line: [ "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\ld.lld" --sysroot=E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_e8428 "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o" "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o" "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o" "-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++\\" "-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos" "-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\" "-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\lib\\arm-linux-ohos\\" "-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\" --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_e8428.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a -lc "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a" -l:libunwind.a "E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o" "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o"]
+    arg [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\ld.lld] ==> ignore
+    arg [--sysroot=E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e8428] ==> ignore
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\Scrt1.o] ==> ignore
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\crti.o] ==> ignore
+    arg [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\clang_rt.crtbegin.o] ==> ignore
+    arg [-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++;-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos] ==> dir [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++;-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos]
+    arg [-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib;-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1] ==> dir [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib;-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\lib\\arm-linux-ohos;-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos;--build-id=sha1]
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [-lunwind] ==> lib [unwind]
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_e8428.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lc++abi] ==> lib [c++abi]
+    arg [-lunwind] ==> lib [unwind]
+    arg [-lm] ==> lib [m]
+    arg [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-lc] ==> lib [c]
+    arg [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a] ==> lib [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\clang_rt.crtend.o] ==> ignore
+    arg [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos\\crtn.o] ==> ignore
+  remove lib [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  remove lib [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos\\libclang_rt.builtins.a]
+  collapse library dir [E:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\lib\\arm-linux-ohos\\c++] ==> [E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/arm-linux-ohos/c++]
+  collapse library dir [-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\arm-linux-ohos] ==> [D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/clang/12.0.1/lib/arm-linux-ohos]
+  collapse library dir [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib] ==> [E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/lib]
+  collapse library dir [-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\bin\\..\\lib\\arm-linux-ohos] ==> [D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/arm-linux-ohos]
+  collapse library dir [-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot\\usr\\lib\\arm-linux-ohos] ==> [D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/lib/arm-linux-ohos]
+  collapse library dir [--build-id=sha1] ==> [D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/--build-id=sha1]
+  implicit libs: [unwind;c++;c++abi;unwind;m;-l:libunwind.a;c;-l:libunwind.a]
+  implicit dirs: [E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/arm-linux-ohos/c++;D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/clang/12.0.1/lib/arm-linux-ohos;E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/lib;D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/lib/arm-linux-ohos;D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/-LE:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot/usr/lib/arm-linux-ohos;D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/--build-id=sha1]
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+OHOS (dev) clang version 12.0.1 (llvm-project 1971c85d809b8dd102ede1ec71208518a9b0f68e)
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: E:/App_Data/Local/OpenHarmony/Sdk/9/native/llvm/bin

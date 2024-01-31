@@ -1,0 +1,45 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\23101\\.ohos\\config\\auto_debug_Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854_com.example.healthy_life_240086000126861569.cer",
+          "storePassword": "0000001B34EED23EB714358A57B04A315F3F2462B70961998F1B5FC79E7440EB0C36E1D302B59F03B969CC",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BE122E64078F25E11CFCAAACDEF957185BAFFAF53BED6C6233FE7FCB646C6C9D9309B9C9C5F9FC8",
+          "profile": "C:\\Users\\23101\\.ohos\\config\\auto_debug_Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854_com.example.healthy_life_240086000126861569.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\23101\\.ohos\\config\\auto_debug_Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854_com.example.healthy_life_240086000126861569.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ohos_Mqtt",
+      "srcPath": "./ohos_Mqtt"
+    }
+  ]
+}

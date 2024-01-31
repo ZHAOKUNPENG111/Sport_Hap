@@ -1,0 +1,69 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"name" : "Ninja"
+		},
+		"paths" : 
+		{
+			"cmake" : "E:/App_Data/Local/OpenHarmony/Sdk/9/native/build-tools/cmake/bin/cmake.exe",
+			"cpack" : "E:/App_Data/Local/OpenHarmony/Sdk/9/native/build-tools/cmake/bin/cpack.exe",
+			"ctest" : "E:/App_Data/Local/OpenHarmony/Sdk/9/native/build-tools/cmake/bin/ctest.exe",
+			"root" : "E:/App_Data/Local/OpenHarmony/Sdk/9/native/build-tools/cmake/share/cmake-3.16"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 16,
+			"patch" : 5,
+			"string" : "3.16.5",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-fd3dbfce120edf2412b7.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "cmakeFiles-v1-10ef94f54da30ce9d7fa.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"cmakeFiles-v1" : 
+		{
+			"jsonFile" : "cmakeFiles-v1-10ef94f54da30ce9d7fa.json",
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		"codemodel-v2" : 
+		{
+			"jsonFile" : "codemodel-v2-fd3dbfce120edf2412b7.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		}
+	}
+}

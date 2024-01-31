@@ -1,0 +1,237 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "mqtt_napi/libmqtt_napi.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"mqtt_napi/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O0 -g -fno-limit-debug-info  -fPIC  "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/mqtt_napi"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/paho.mqtt.c/paho.mqtt.c/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/boundscheck/third_party_bounds_checking_function/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/boundscheck/third_party_bounds_checking_function/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/paho.mqtt.c/adapted/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"sysroot" : 
+			{
+				"path" : "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "pahomqttc::@defd7fd74a44754b77fc"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boundscheck::@9eddb34ecec226d41306"
+		}
+	],
+	"id" : "mqtt_napi::@bc2c479f19e11bddc8d1",
+	"name" : "mqtt_napi",
+	"nameOnDisk" : "libmqtt_napi.a",
+	"paths" : 
+	{
+		"build" : "mqtt_napi",
+		"source" : "mqtt_napi"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mqtt_napi/base_context.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mqtt_napi/connect_context.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mqtt_napi/mqtt_constant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mqtt_napi/mqtt_client_options.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mqtt_napi/mqtt_connect_options.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mqtt_napi/event_listener.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mqtt_napi/event_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mqtt_napi/mqtt_impl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mqtt_napi/mqtt_message.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mqtt_napi/mqtt_napi_utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mqtt_napi/mqtt_response.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mqtt_napi/mqtt_subscribe_options.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mqtt_napi/publish_context.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mqtt_napi/subscribe_context.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

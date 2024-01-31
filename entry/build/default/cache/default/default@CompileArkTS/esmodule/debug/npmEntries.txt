@@ -1,0 +1,1 @@
+pkg_modules@entry/@ohos/mqtt:com.example.healthy_life/entry@ohos_Mqtt/index

@@ -1,0 +1,170 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "paho.mqtt.c",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "paho.mqtt.c",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "mqtt_napi",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "mqtt_napi",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "boundscheck",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "boundscheck",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mqttasync",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "pahomqttc",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "mqtt_napi",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "boundscheck",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "boundscheck::@9eddb34ecec226d41306",
+					"jsonFile" : "target-boundscheck-Debug-785136c646a3a487f013.json",
+					"name" : "boundscheck",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "mqtt_napi::@bc2c479f19e11bddc8d1",
+					"jsonFile" : "target-mqtt_napi-Debug-5980a3e1045935f9f839.json",
+					"name" : "mqtt_napi",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mqttasync::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mqttasync-Debug-9fb9c34ee2b6b9d3aaca.json",
+					"name" : "mqttasync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "pahomqttc::@defd7fd74a44754b77fc",
+					"jsonFile" : "target-pahomqttc-Debug-c1af7dbe7c662b2cf9de.json",
+					"name" : "pahomqttc",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/.cxx/default/default/arm64-v8a",
+		"source" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

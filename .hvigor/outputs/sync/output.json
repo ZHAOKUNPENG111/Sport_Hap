@@ -1,0 +1,67 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\entry\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\entry\\src\\main",
+        "RESOURCES_PATH": [
+          "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\entry\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    }
+  },
+  "ohos-module-ohos_Mqtt": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\src\\main",
+        "RESOURCES_PATH": [
+          "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\ohos_Mqtt\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\build",
+    "BUNDLE_NAME": "com.example.healthy_life",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "D:\\23101\\Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854\\build\\outputs\\default"
+    }
+  },
+  "version": 1
+}

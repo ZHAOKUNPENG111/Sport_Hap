@@ -1,0 +1,213 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/build/default/intermediates/cmake/default/obj/arm64-v8a/libmqttasync.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O0 -g -fno-limit-debug-info  -fPIC  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "mqttasync_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/paho.mqtt.c/paho.mqtt.c/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/mqtt_napi"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/boundscheck"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/23101/Health-life-master-bfa1f6b2ee10a59aa3645832456f7c784b217854/ohos_Mqtt/src/main/cpp/paho.mqtt.c/adapted/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "pahomqttc::@defd7fd74a44754b77fc"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "mqtt_napi::@bc2c479f19e11bddc8d1"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "boundscheck::@9eddb34ecec226d41306"
+		}
+	],
+	"id" : "mqttasync::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "--rtlib=compiler-rt -fuse-ld=lld -Wl,--build-id=sha1 -Wl,--warn-shared-textrel -Wl,--fatal-warnings -lunwind -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-LE:\\App_Data\\Local\\OpenHarmony\\Sdk\\9\\native\\llvm\\lib\\clang\\12.0.1\\lib\\aarch64-linux-ohos",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lace_napi.z",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lhilog_ndk.z",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "mqtt_napi\\libmqtt_napi.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "paho.mqtt.c\\libpahomqttc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "boundscheck\\libboundscheck.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-s",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-Bstatic",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lc++",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-Bdynamic",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lhilog_ndk.z",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "E:/App_Data/Local/OpenHarmony/Sdk/9/native/sysroot"
+		}
+	},
+	"name" : "mqttasync",
+	"nameOnDisk" : "libmqttasync.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mqtt_module_exports.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
