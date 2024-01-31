@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!-- {{ url_for('static', filename='layui.js.下载') }} -->
+<html>
+<head>
+  <title>Aisports Stream</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    button.btn.btn-primary {  
+      width: 150px;   /* 设置按钮宽度 */  
+      height: 75px;   /* 设置按钮高度 */  
+      font-size: 18px;   /* 设置字体大小 */  
+    } 
+    body {
+      background-image: url("static/aicoach1.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .centered-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .login-form {
+      margin: 100px auto;
+    }
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+ 
+  <div id="button-container" style="display:none;" class="centered-button">
+    <button class="btn btn-primary" id="normal-mode-btn">用户定义模式</button><p></p>
+    <div id="all-buttons" style="display: none;">
+      <button class="btn btn-primary" id="start-stream-btn">引体向上</button><p></p>
+      <button class="btn btn-primary" id="stop-stream-btn">结束运动</button><p></p>
+      <button class="btn btn-primary" id="start-skip-btn">跳绳运动</button><p></p>
+      <button class="btn btn-primary" id="stop-skip-btn">结束运动</button><p></p>
+      <button class="btn btn-primary" id="start-sd-btn">深蹲运动</button><p></p>
+      <button class="btn btn-primary" id="stop-sd-btn">结束运动</button><p></p>
+      <button class="btn btn-primary" id="start-jtsd-btn">静态深蹲</button><p></p>
+      <button class="btn btn-primary" id="stop-jtsd-btn">结束运动</button><p></p>
+      <button class="btn btn-primary" id="start-fwc-btn">俯卧撑</button><p></p>
+      <button class="btn btn-primary" id="stop-fwc-btn">结束运动</button><p></p>
+      <button class="btn btn-primary" id="start-pbzc-btn">平板支撑</button><p></p>
+      <button class="btn btn-primary" id="stop-pbzc-btn">结束运动</button><p></p>
+      <button class="btn btn-primary" id="upload-data-btn">上传数据</button><p></p>
+    </div>
+    <button class="btn btn-primary" id="ai-mode-btn">智能辅助模式</button><p></p>
+    <div id="ai-form" style="display: none;">
+      <form id="input-form">
+        <div class="form-group">
+          <label for="height">身高（cm）：</label>
+          <input type="number" id="height" name="height" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="age">年龄：</label>
+          <input type="number" id="age" name="age" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="gender">性别：</label>
+          <select id="gender" name="gender" required class="form-control">
+            <option value="male">男</option>
+            <option value="female">女</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="weight">体重（kg）：</label>
+          <input type="number" id="weight" name="weight" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="miss_weight">目标减肥体重（kg）：</label>
+          <input type="number" id="miss_weight" name="miss_weight" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="plan_day">目标完成天数：</label>
+          <input type="number" id="plan_day" name="plan_day" required class="form-control">
+        </div>
+        <div class="form-group">
+          <button class="btn btn-primary" type="submit">提交</button>
+        </div>
+        <div class="form-group">
+          <button type="button" button class="btn btn-primary" id="view-plan-btn">查看计划</button>
+          <div id="file-content"></div> <!-- 用于显示文件内容的div -->
+        </div>
+        <div class="form-group" style="display: block;">
+          <button class="btn btn-primary" id="start-exercise-btn">按计划健身</button>
+          <div id="all-buttons" style="display: none;"></div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="container vh-100 d-flex justify-content-center align-items-center">
+    <form class="row g-3" id="login-form">
+      <div class="form-floating">
+        <input type="text" class="form-control" id="username" placeholder="用户名">
+        <label for="username">用户名</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="password" placeholder="密码">
+        <label for="password">密码</label>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-warning btn-block text-white w-100" type="submit">登录</button>
+      </div>
+    </form>
+  </div>
+
+  
+  
+  <script>
+    var VideoElement;
+    var skipVideoElement;
+    var sdVideoElement;
+    var jtsdVideoElement;
+    var fwcVideoElement;
+    var pbzcVideoElement;
+
+    document.getElementById('login-form').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the form from submitting
+      
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('password').value;
+      
+      // Check if entered credentials are correct
+      if (username === 'zkp' && password === '123456') {
+        document.getElementById('login-form').style.display = 'none';
+        document.getElementById('button-container').style.display = 'block';
+      } else {
+        alert('账号密码错误请重新输入');
+  }
+});
+
+    // 点击上传数据按钮的事件处理
+    document.getElementById('upload-data-btn').addEventListener('click', function() {
+
+      fetch('/datatocloud', {
+        method: 'POST'
+      })
+      .then(function(response) {
+        // 处理响应
+        droid.ttsSpeak('数据上行完毕注意查收'); 
+      })
+      .catch(function(error) {
+        // 处理错误
+      });
+});
+
+    document.getElementById('view-plan-btn').addEventListener('click', function() {
+      fetch('/read_file')
+        .then(function(response) {
+          return response.text();
+        })
+        .then(function(content) {
+          document.getElementById('file-content').innerText = content; // 设置div的内容
+          document.getElementById('start-exercise-btn').style.display = 'block';
+        })
+        .catch(function(error) {
+          console.log(error);
+        });
+  });
+
+  document.getElementById('start-exercise-btn').addEventListener('click', function(event) {   
+  event.preventDefault();
+
+  document.getElementById('all-buttons').style.display = 'block';
+
+  document.getElementById('start-exercise-btn').style.display = 'none';
+
+})
+
+    document.getElementById('normal-mode-btn').addEventListener('click', function() {
+      var allButtons = document.getElementById('all-buttons');
+      if (allButtons.style.display === 'none') {
+        allButtons.style.display = 'block';
+      } else {
+        allButtons.style.display = 'none';
+      }
+    });
+
+    document.getElementById('ai-mode-btn').addEventListener('click', function() {
+      var aiForm = document.getElementById('ai-form');
+      if (aiForm.style.display === 'none') {
+        aiForm.style.display = 'block';
+      } else {
+        aiForm.style.display = 'none';
+      }
+    });
+
+    // 其他按钮事件处理代码...
+
+    document.getElementById('start-stream-btn').addEventListener('click', function() {
+      VideoElement = document.createElement('img');
+      VideoElement.src = "{{ url_for('video_feed') }}";
+      VideoElement.width = 640;
+      VideoElement.height = 480;
+      document.body.appendChild(VideoElement);
+    });
+
+    document.getElementById('stop-stream-btn').addEventListener('click', function() {
+      fetch('/stop', {
+        method: 'POST'
+      }).then(function(response) {
+        // 处理响应
+        VideoElement.remove();
+      }).catch(function(error) {
+        // 处理错误
+      });
+    });
+
+    document.getElementById('start-skip-btn').addEventListener('click', function() {
+      skipVideoElement = document.createElement('img');
+      skipVideoElement.src = "{{ url_for('video_feed1') }}";
+      skipVideoElement.width = 640;
+      skipVideoElement.height = 480;
+      document.body.appendChild(skipVideoElement);
+    });
+
+    document.getElementById('stop-skip-btn').addEventListener('click', function() {
+      fetch('/stop1', {
+        method: 'POST2'
+      }).then(function(response) {
+        // 处理响应
+        skipVideoElement.remove();
+      }).catch(function(error) {
+        // 处理错误
+      });
+    });
+
+    document.getElementById('start-sd-btn').addEventListener('click', function() {
+      sdVideoElement = document.createElement('img');
+      sdVideoElement.src = "{{ url_for('video_feed2') }}";
+      sdVideoElement.width = 640;
+      sdVideoElement.height = 480;
+      document.body.appendChild(sdVideoElement);
+    });
+
+    document.getElementById('stop-sd-btn').addEventListener('click', function() {
+      fetch('/stop2', {
+        method: 'POST2'
+      }).then(function(response) {
+        // 处理响应
+        sdVideoElement.remove();
+      }).catch(function(error) {
+        // 处理错误
+      });
+    });
+
+    document.getElementById('start-jtsd-btn').addEventListener('click', function() {
+      jtsdVideoElement = document.createElement('img');
+      jtsdVideoElement.src = "{{ url_for('video_feed3') }}";
+      jtsdVideoElement.width = 640;
+      jtsdVideoElement.height = 480;
+      document.body.appendChild(jtsdVideoElement);
+    });
+
+    document.getElementById('stop-jtsd-btn').addEventListener('click', function() {
+      fetch('/stop3', {
+        method: 'POST3'
+      }).then(function(response) {
+        // 处理响应
+        jtsdVideoElement.remove();
+      }).catch(function(error) {
+        // 处理错误
+      });
+    });
+
+    document.getElementById('start-fwc-btn').addEventListener('click', function() {
+      fwcVideoElement = document.createElement('img');
+      fwcVideoElement.src = "{{ url_for('video_feed4') }}";
+      fwcVideoElement.width = 640;
+      fwcVideoElement.height = 480;
+      document.body.appendChild(fwcVideoElement);
+    });
+
+    document.getElementById('stop-fwc-btn').addEventListener('click', function() {
+      fetch('/stop4', {
+        method: 'POST4'
+      }).then(function(response) {
+        // 处理响应
+        fwcVideoElement.remove();
+      }).catch(function(error) {
+        // 处理错误
+      });
+    });
+
+    document.getElementById('start-pbzc-btn').addEventListener('click', function() {
+      pbzcVideoElement = document.createElement('img');
+      pbzcVideoElement.src = "{{ url_for('video_feed5') }}";
+      pbzcVideoElement.width = 640;
+      pbzcVideoElement.height = 480;
+      document.body.appendChild(pbzcVideoElement);
+    });
+
+    document.getElementById('stop-pbzc-btn').addEventListener('click', function() {
+      fetch('/stop5', {
+        method: 'POST5'
+      }).then(function(response) {
+        // 处理响应
+        pbzcVideoElement.remove();
+      }).catch(function(error) {
+        // 处理错误
+      });
+    });
+
+    document.getElementById('input-form').addEventListener('submit', function(event) {
+      event.preventDefault(); // 阻止表单默认提交行为
+
+      var height = document.getElementById('height').value;
+      var age = document.getElementById('age').value;
+      var gender = document.getElementById('gender').value;
+      var weight = document.getElementById('weight').value;
+      var miss_weight = document.getElementById('miss_weight').value;
+      var plan_day = document.getElementById('plan_day').value;
+      // 创建一个包含数据的对象
+      var data = {
+        height: height,
+        age: age,
+        gender: gender,
+        weight: weight,
+        miss_weight: miss_weight,
+        plan_day:plan_day
+      };
+
+      fetch('/message', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      }).then(function(response) {
+        // 处理响应
+        // 可以在此处根据业务需求进行相应的操作
+      }).catch(function(error) {
+        // 处理错误
+      });
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
